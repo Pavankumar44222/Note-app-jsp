@@ -1,0 +1,27 @@
+.card{
+    display: flex;
+  flex-wrap: wrap;
+  padding-left: 80px;
+  padding-right: 80px;
+  font-size: 30px;
+}
+
+.card-body{
+    margin:20px;
+    width:100%;
+    background-color:aqua;
+    padding: 10px;
+    flex: 50%;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.card-title{
+    font-size: 30px;
+    font-family: Verdana, sans-serif;
+}
+.card-text{
+    font-size: 20px;
+}
+
+body{
+    background-color:aquamarine;
+}
